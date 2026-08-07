@@ -1,6 +1,6 @@
 # Quantum regression with a problem-specific ansatz
 
-This repository contains the Python code that generates the datasets and reproduces the results presented in our paper [*<title>*](https://arxiv.org/abs/XXXX.XXXXX).
+This repository contains the Python code that generates the datasets and reproduces the results presented in our paper [*<Parametrized circuit-free quantum regression with variance regularization>*](https://arxiv.org/abs/2607.02696).
 
 ## Overview
 
