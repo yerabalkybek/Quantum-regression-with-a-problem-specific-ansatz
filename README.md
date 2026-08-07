@@ -1,6 +1,6 @@
 # Quantum regression with a problem-specific ansatz
 
-This repository contains the Python code that generates the datasets and reproduces the results presented in our paper [*<Parametrized circuit-free quantum regression with variance regularization>*](https://arxiv.org/abs/2607.02696).
+This repository contains the Python code that generates the datasets and reproduces the results presented in our paper [*Parametrized circuit-free quantum regression with variance regularization*](https://arxiv.org/abs/2607.02696).
 
 ## Overview
 
@@ -16,7 +16,7 @@ The project is organized into two main parts, corresponding to the two learning 
 Predicting entanglement of bipartite qubit states. Contains four subfolders:
 
 - **`Pure&Iso_states/`** — predicting entanglement of pure and isotropic states using two copies of a bipartite qubit state.
-- **`10classes/`** — predicting entanglement of mixed states using four copies of the input state, with ten-class Hermitian operators used as the ansatz.
+- **`Easy&Mixed_states/`** — predicting entanglement of mixed states using four copies of the input state, with ten-class Hermitian operators used as the ansatz.
 - **`Pauli/`** — predicting entanglement of mixed states using four copies of the input state, with *k*-local Pauli strings used as the ansatz.
 - **`function_learning/`** — various versions of the ten-class functions derived from the ten-class Hermitian ansatz, obtained by expanding or trimming the function set. We conclude that the ten-class functions from the ten-class Hermitian classes are the optimal choice.
 
